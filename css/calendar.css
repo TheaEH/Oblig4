@@ -20,10 +20,10 @@ main div {
     color: whitesmoke;
 }
 
-/*code for the calendar*/
+/*code for the calendar from https://www.w3schools.com/howto/howto_css_calendar.asp*/
 
-* {box-sizing: border-box;}
 ul {list-style-type: none;}
+
 body {font-family: Verdana, sans-serif;}
 
 /* Month header */
@@ -42,21 +42,9 @@ body {font-family: Verdana, sans-serif;}
 
 .month ul li {
   color: white;
-  font-size: 20px;
+  font-size: larger;
   text-transform: uppercase;
   letter-spacing: 3px;
-}
-
-/* Previous button inside month header */
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-/* Next button */
-.month .next {
-  float: right;
-  padding-top: 10px;
 }
 
 /* Weekdays (Mon-Sun) */
@@ -86,7 +74,7 @@ body {font-family: Verdana, sans-serif;}
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size:12px;
+  font-size: 1em;
   color: #555;
 }
 
@@ -113,8 +101,4 @@ span a {
   @media screen and (max-width: 420px) {
     .weekdays li, .days li {width: 12.5%;}
     .days li .active {padding: 2px;}
-  }
-  
-  @media screen and (max-width: 290px) {
-    .weekdays li, .days li {width: 12.2%;}
   }
