@@ -12,13 +12,14 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, auto);
     background-color: rgb(68, 68, 68);
-    padding: 1em 0;
+    padding: 0;
+    height: 100%;
 }
 
 nav a {
     text-decoration: none;
     color: whitesmoke;
-    padding: 1em 0 1em 0;
+    padding: 1.5em 0;
     letter-spacing: 2px;
     width: 50%;
     text-transform: uppercase;
@@ -54,7 +55,10 @@ footer div {
 }
 
 @media screen and (max-width: 500px) {
-    nav {grid-template-columns: repeat(1, auto);}
+    nav {
+        grid-template-columns: repeat(1, auto);
+        padding: 0;
+    }
     nav a{width: 100%;}
     .left {margin: auto; text-align: center;}
     .right {margin: auto; text-align: center;}
