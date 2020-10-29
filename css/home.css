@@ -14,7 +14,6 @@ main div {
 #text1 {
     background-color: rgb(224, 221, 207);
     text-align: center;
-    text-transform: uppercase;
 }
 #text2 {
     color: whitesmoke;
@@ -24,6 +23,10 @@ main div {
 #text3 {
     background-color: rgb(45, 35, 46);
     color: whitesmoke;
+    text-align: center;
+}
+#text3 p a{
+    color: lightblue;
 }
 
 #here {
