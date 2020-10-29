@@ -34,6 +34,10 @@ img, picture {
     height: 15em;
 }
 
+main div p a {
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 1100px) {
     img, picture {
         height: auto;
