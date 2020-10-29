@@ -10,7 +10,8 @@ body {
 
 nav {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     background-color: rgb(68, 68, 68);
     padding: 0;
     height: 100%;
@@ -18,6 +19,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    text-align: center;
     color: whitesmoke;
     padding: 1.5em 0;
     letter-spacing: 2px;
@@ -41,17 +43,6 @@ footer {
 footer div {
     width: fit-content;
     margin-left: 1em;
-}
-
-.right {
-    margin: 0 25%;
-    text-align: center;
-    justify-self: flex-end;
-}
-.left {
-    margin: 0 25%;
-    text-align: center;
-    justify-self: flex-start;
 }
 
 @media screen and (max-width: 500px) {
